@@ -1,0 +1,297 @@
+body{margin: 0px;
+	padding: 0px; 
+	font-family: sans-serif,arial,tahoma,lato;
+	font-size: 15px;
+	color: #000;
+}
+.container{
+	width: 80%;
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+/*a:hover{ color: #ccc; transition: 0.5s; }*/
+
+
+		/*---------------------Header---------------------*/
+
+
+.header{ background: #FFFAF0;overflow: hidden; margin: 0 auto; padding:10px 0; 
+	width: 100%; position: fixed;  }
+.logo{
+	width: 20%;
+	float: left;}
+.logo img{ }
+
+.manuber{ 
+	float: right; text-align: right;
+ }
+.manuber ul{}
+.manuber ul li{ 
+	display:inline-block;position:relative;
+	padding:15px 15px;
+	font-size: 18px;
+}
+.manuber ul li a{text-decoration: none;}
+.manuber ul li a:hover, .active{color:red;}
+.manuber ul li:hover, .active{background:#9CCBF9; color: red;}
+
+		/*---------------------Cover image---------------------*/
+
+.cover_image img{ overflow: hidden; background-size: cover; padding-top: 100px;
+	width: 100%;
+	height: 80vh;
+}
+
+			/*---------------------COVIT-19---------------------*/
+
+.covit{
+	background: #606060; padding: 12px 0px;
+}
+.covit-19{ width: 50%;
+	float: left; font-size: 17px; color: #fff; }
+.button{ float: right; padding:10px 0;   } 
+button{ font-size: 18px; padding: 10px 8px; background:#FF3333 ; }
+.find{ background: #686868; padding: 10px 0; }
+
+
+		/*---------------Find a Course--------------*/
+
+.find{text-align: center; margin-left: 20%; background: #F5F5F5;}
+.course_name{ width: 30%; float: left; }
+.course_name h2{ font-size: 28px; }
+.Search{ width: 55%; float: right;  padding: 15px 0px; }
+.Search input{ width: 60%; padding:10px;  font-size: 16px; border: 2px solid #505050;}
+.Search button{ font-size: 17px; padding: 11px 15px; background:#FF3333 ;  }
+.fa-search {padding: 0 15px;}	
+
+		/*-----------------Study & Collaborate-section-------------*/
+
+.top_contain{ margin-top: 25px; overflow: hidden; }
+.top_contain h2{padding-top: 20%; padding-left: 25%;font-size: 40px;  font-weight: bold;}
+.top_contain h3{text-align: left; font-size: 28px; }
+.top_contain p{text-align: center; font-size: 22px;}
+.Study{ width: 45%; float: left; height: 300px; background-image: url(images/imagecontain.jpg); 
+	background-repeat: no-repeat; background-size: 100%; border-radius: 10%;
+ }
+.Study img{width: 100%;}
+.Collaborate{width: 45%; float: right; background: #F8F8F8;  }
+.std{margin-top: 40px;}
+
+
+				/*-----------------Research_section-------------*/
+
+
+.middal_contain{ overflow: hidden; padding:25px 0; } 
+.middal_contain h2{ padding-top: 12%; padding-left: 25%;font-size: 40px;  font-weight: bold; }
+.middal_contain h3{text-align: left; font-size: 28px; }
+.middal_contain p{text-align: center; font-size: 22px;}
+.Research{ width:45%; float:left; ;background: #f5f5f0;  }
+.Research_image{width: 55%;float: right; }
+.Research_image img{width: 100%; height: 100%; padding-left:15% }
+.res{ margin-top: 25px; padding:15px 0; }
+
+				/*-----------------graduates_contain-------------*/
+
+
+.graduates_contain{margin: 15px 0; overflow: hidden; padding-top: 20px;} 
+.graduates_contain h2{ font-size: 34px; } 
+.graduates_contain h3{text-align: left; font-size: 28px; }
+.graduates_contain p{ line-height: 22px; padding: 0 30px; }
+.pre_graduates{width: 40%; float: left;}
+.pre_graduates img{ width: 90%; }
+.post_graduates{ width: 55%; float: right; text-align: center; 
+	background: #F8F8F8; padding: 20px 0; 
+}
+.admi{ margin:20px 0;}
+
+		/*-----------Libary & accomonodation-section------------------*/
+
+
+.Libary_accommodation_contain{ overflow: hidden; text-align: center; margin: 25px 0;  }
+.Libary_accommodation_contain h3{text-align: left; font-size: 28px;}
+.Libary_accommodation_contain img{width: 100%;}
+.facility{margin: 20px 0;  }
+.Libary{ width: 45%; float: left;  }
+.accommodation{ width: 45%; float: right;}
+
+
+				/*------------News & opinion_section------------------*/
+
+.News_opinion_contain{ overflow: hidden; text-align: center; margin-bottom: 30px;}
+.News_opinion_contain h2{}
+.News_opinion_contain h3{ text-align: left; font-size: 30px; padding: 0 auto; }
+.news {width:30%; float: left; margin-right: 3%;  margin-top: 20px;}
+.News_opinion_contain img { width: 100%; }
+
+
+				/*--------------footer------------------*/
+
+
+.footer{ background:  #E64626; overflow: hidden; height: 400px; padding: 20px 0; }
+.footer_left{ width: 30%; float: left; padding: 30px 0;}
+.footer_left img{}
+.socal_icon{ width: 20%; float: left; padding: 0 20px; overflow: hidden; line-height: 1.8em; }
+.socal_icon ul{ list-style: none; padding: 0 15px; }
+.socal_icon ul li{ display: block; margin-top: 10px ; font-size: 32px; color: #fff;}
+.socal_icon ul li a{  }
+.media{ float: right; text-align: left; line-height: 1.8em; padding: 0 25px;}
+.media ul li{ }
+.footer_right{width: 65%; overflow: hidden; float: right;text-align: center;  }
+.footer_right h2{ color: #fff; font-style:italic; font-size: 32px; }
+.right{ width: 30%; float: left; padding: 30px 0;line-height: 1.6em; font-size:14px; }
+.right h3{ font-size:20px;  }
+.feedback a{ padding: 8%;font-size: 12px;}
+
+
+
+
+
+
+
+
+
+
+    /*---------------Research page--------------------*/
+.Research_section {padding-top: 150px; }
+.container_right_side{ width:26%; float: left; overflow: hidden; margin: 0 auto; }
+.container_right_side h4{ float: right; margin: 10px 20px;
+}
+.link_list{ background: #F0F3F4;}
+.container_right_side ul li{ padding:30px 0 5px 0; border-bottom:1px dashed #626567 ;  }
+.container_right_side ul li:hover{transform: scale(1.1); transition: 0.5s; color:#C0392B;}
+.small_contain{background: #F4F6F6; width: 100%;  padding: 20px 15px;  text-align: center;}
+.small_contain p{  padding:0 25px; text-align:justify;}
+.container_main_side{ width:74%; float: right; overflow: hidden; margin: 0 auto;
+	
+}
+.research_head h2{ font-size: 38px; margin: 30px 0 0 0; }
+.Re{float: left;}
+.previous_research{}
+.running_research{}
+.students{width:31%; float: left; overflow: hidden; margin-right:2%; background:#F8F9F9; 
+	text-align:justify; padding: 15px auto;padding-top: 25px ;
+	}
+.students img{ width:100%; height: 30vh; }
+.students h3{ margin: 25px 0 0 0;}
+.students h3: hover{ transition:.5s; color:green; } 
+.info{ text-align: center; padding: 20px 0;  }
+.info h2{font-size: 22px; margin: 25px 0 0 0; text-align: left;}
+.file{width:30%;float: left; margin-right: 2%;  }
+.file button{padding: 10px 15px; background: #AAB7B8; }
+
+
+
+
+/*--------------------Study_page--------------------*/
+/*--------------------Study_Collaborate_section--------------------*/
+
+.Study_Collaborate_section{ padding: 110px 0 0 0; }
+.Study_Collaborate_section h2{font-size: 40px; padding:15px 0;  border-bottom:2px dotted #000; }
+.Study_first h3{ font-size:24px; }
+.Find_option_section h2{ font-size: 32px; }
+.Find_option_section li{ list-style: none; border-bottom: 1px dotted #000; padding: 25px 10px; }
+.Find_option_section li:hover{background:#F9E79F; transform: scale(1.05); transition: 0.8s}
+.Study_first img{width: 100%; max-height:50vh;}
+
+.fa-long-arrow-right{ font-size: 20px; margin-left:10%; }
+.findcourse input{ width: 60%; padding: 15px 10px; font-size: 18px;}
+.findcourse button{ background: #F1948A;padding:15px; font-weight: bold; }
+		
+
+		/*----------------onlineclass--------------*/
+.onlineclass{ margin:20px auto;}
+.onlineclass h3{ font-size: 22px; }
+.onlineclass button{ width:15%; background: #AEB6BF;  padding: 15px auto; }		
+
+
+		/*---------------environment_section-------------*/
+
+.environment_section{margin-top: 30px;}
+.environment_section h3{ padding:10px 0; font-size: 24px; }
+.good{width: 30%; float: left; margin-right: 3.2%;}
+
+
+		/*-----------------------facilites_section----------------*/
+.facilites_section{}
+.good_environment ol{ }
+.good_environment h2{ font-size: 28px; }
+
+
+			/*--------------------Department page-------------------*/
+ 			/*--------------------Department_section----------------*/
+
+.Department_section{overflow:hidden; padding: 110px 0 0 0; overflow:hidden; box-sizing: border-box; }
+.Department_section h2{font-size: 40px; padding:15px 0;  border-bottom:2px dotted #000; }
+.Department_section h3{font-size:24px;}
+.department img{width:30%; float: left;}
+.Department_section button{ width: 15%;float: left; padding: 10px auto; }
+.Department_section select{width:15%; background: #52BE80; padding: 8px 20px; 
+	font-size: 16px; border-bottom: 1px dotted #000;}
+.searchoption input{ width:30%; border:2px solid #000; padding: 10px; }
+.sear { float: left; }
+.electrical h3{ background: linear-gradient(to right, #D6FDFD,#ADFEFE,#D6FDFD);font-size:22px; padding: 15px 10px; }
+.Computer h3{background: linear-gradient(to right,#ABF9C2,#43FE7A,#ABF9C2);font-size:22px; padding: 15px 10px; }
+.Civil h3{background: linear-gradient(to right, #FCF3CF,#D2B4DE,#FCF3CF);font-size:22px; padding: 15px 10px; }
+.Mechanical h3{background: linear-gradient(to right, #F6DDCC,#EDBB99,#F6DDCC);font-size:22px; padding: 15px 10px; }
+.Power h3{background: linear-gradient(to right, #AED6F1,#A9CCE3,#AED6F1);font-size:22px; padding: 15px 10px; }
+.Architecher h3{background: linear-gradient(to right, #FADBD8,#F5B7B1,#FADBD8);font-size:22px; padding: 15px 10px; }
+
+		/*----------------table--------------*/
+table{ width:60%; font-size:18px; text-align: center;}
+table tr td{; padding:10px auto; }
+
+.et1 h4{ font-size: 22px; }
+.et1 { width: 50%; float: left;  }
+.et1 img{ width: 100%; }
+.et2{ width: 30%; float: right;  padding: 5%;  text-align:left;}
+.et2 a{ display: block; line-height: 2em; color: #B42D20; font-size: 17px; padding: 6px 15px;
+ border-bottom: 2px dotted #000; border-left:2px dotted #000;   margin-bottom:8px; border-radius: 10px;}
+.et2 a:hover{ color: #531F1A; transform: scale(1.03);  background: #C6C1C1; transition: 0.5s;   }
+.fa-angle-double-right{ padding-left: 28px; }
+
+
+
+/*-----------------Login_section----------------*/
+.bcimage{ background-image: url(images/contact.jpg); background-size: cover; }
+.Login_section{padding-top: 110px; overflow: hidden; box-sizing: border-box; color: #fff; }
+.Login_section h2{font-size: 38px; text-align: center; }
+.singup{text-align:right; }
+.singup button{font-size: 18px;margin-right:10px;  padding: 6px 15px;  
+	background: #FDFEFE; color: #000;  }
+
+
+.contact_details{}
+.contact{ overflow: hidden; float: left; padding-left: 10%;
+	 padding-top:8%; margin-bottom: 30px; line-height: 25px; font-weight: bold; }
+.infro1{width: 25%;}
+.infro2{ width:53%;pad float: right;  }
+.fa{ padding-right: 30px;color:#fff; font-size: 40px;}
+.contact input{width:55%; font-size: 18px; color:#000; opacity: 0.3;
+	border-radius: 3px; padding:6px 12px; margin:7px 0;}
+.contact textarea{font-size: 18px ; width: 60%; height:110px; opacity: 0.3;}
+.contact button{ background: #fff;margin: 15px 0; padding: 10px 20px; opacity: 0.4; }
+
+
+
+
+		/*------------------Electrical_Department_section--------------*/
+
+
+.About_Teacher_section{overflow:hidden;margin:20px 0; overflow:hidden; box-sizing: border-box; }
+.good_Teacher{}
+.good{}
+.good img{ width: 250px; height:250px;  }
+.exam{}
+.exam ul li{ padding: 10px 0; border-bottom: 1px dotted #000; }
+.exam button{ padding: 0 10px; margin-bottom:8px; text-align: right; margin-left: 100px;  
+	background: #F5F7F9; margin:5px 0 0 0; float: right; border-bottom: 1px solid #000; }
+.exam ul li :hover{ color:red; }
+.Notice_section ul li{background: #E6E7E8; margin: 10px 0; padding: 10px 15px; }

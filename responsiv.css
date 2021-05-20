@@ -1,0 +1,112 @@
+
+
+/* Smartphones (portrait) ----------- */
+
+
+@media only screen and (max-device-width : 480px) 
+{
+.container{width: 90%;}
+.header{}
+.manuber ul li{padding:8px;
+	font-size: 16px;}
+.cover_image{ width: 100%; height: 10%; }
+.covit-19{ width: 65%}
+.button{width:30%; font-size:14px; margin-top:8px;}
+.button button{ padding: 5px; font-size:12px;}
+.course_name{width: 42%;}
+.course_name h2{font-size: 22px; }
+.Search{width: 55%;}
+.Search input{width:50%; padding: 8px;}
+.Search button{font-size: 14px; padding: 10px 6px;}
+.fa-search {padding: 0 8px;}	
+
+
+/*-----------------Study & Collaborate-section-------------*/
+.Study,.Collaborate,.Research, .Research_image, .pre_graduates, 
+.post_graduates, .Libary, .accommodation{width: 100%;}
+
+
+/*----------Research_section-----------------*/
+.Research_image img{padding-left:0%;}
+
+/*-----------------Admission_contain-------------*/
+.admi{display: block;}
+.post_graduates h2{font-size:25px;}
+
+/*-----------Libary & accomonodation-section------------------*/
+.Libary_accommodation_contain h3{font-size:25px;}
+.News_opinion_contain{display: block;}
+.news {width: 100%;}
+/*--------------footer------------------*/
+.footer_left{width: 20%; padding-top: 0;}
+.footer_left img{display: none;}
+.socal_icon ul li{ font-size:27px;margin-top: 8px ;  }
+.socal_icon ul li, .fa{color: #000;}
+.media{display: none;}
+.footer_right{width:75%; }
+.footer_right h2 {display: none;}
+.right{width:33.33%; padding-top: 0px; margin: 0;}
+.feedback a{padding:0 35px; margin:0;}
+.footer p{text-align: center;}
+}
+
+
+
+
+/*-----------------Study Page-------------*/
+.Study_Collaborate_section h2{font-size: 32px;}
+.Study_Collaborate_section h3{font-size: 22px;}
+
+.onlineclass button{  width:18%; padding: 10px 10px; }
+.Find_option_section h2{font-size: 28px;}
+.findcourse input{padding:12px; }
+.fa-search{font-size: 16px;}
+
+.facilites_section h2{font-size: 20px; color:red;}
+.News_opinion_contain h3{font-size: 26px; color:red;}
+.News_opinion_contain h2 a{font-size: 20px; color:green;}
+
+
+/*-----------------Study Page-------------*/
+
+.link_list{width: 80%;}
+.container_main_side{width: 80%;}
+
+
+
+
+
+
+.Department_section{padding: 100px 0 0 0;}
+.Department_section h2{ font-size: 32px; }
+.Department_section h3{font-size: 22px;}
+.electrical{}
+.et1{width: 100%}
+.et2{width: 80%}
+
+/* Smartphones $ notepad (portrait and landscape) ----------- */
+
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 768px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+
+
+/* notepad & minilaptop (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width : 769px) and (max-device-width : 1024px) and 
+(orientation : portrait) 
+{
+
+}
+
+
+
+
+/* Desktops and laptops ----------- */
+
+
+@media only screen  and (min-width : 1025px) {
+/* Styles */
+}
